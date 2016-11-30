@@ -1,0 +1,26 @@
+{
+  "name": "react-fontawesome",
+  "version": "1.0.0",
+  "description": "A react component wrapper for font awesome",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel FontAwesome.jsx -o index.js",
+    "prepublish": "npm run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Aaron Arney",
+  "license": "ISC",
+  "dependencies": {
+    "react": "15.4.1",
+    "react-dom": "15.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-es2015": "6.18.0",
+    "babel-preset-react": "6.16.0",
+    "babel-preset-stage-0": "6.16.0",
+    "font-awesome": "4.7.0",
+    "@kadira/storybook": "^2.21.0"
+  }
+}
